@@ -1,0 +1,165 @@
+.middle {
+    background: linear-gradient(to top, #030304,#222226);
+    height: 180vh;
+    position: relative;
+    color: aliceblue;
+    text-align: right; /* יישור לימין */
+    padding: 2rem 2rem 0 2rem; /* ריווח מהצדדים ומלמעלה */
+    direction: rtl;
+  }
+  
+  .menucontainer {
+    position: fixed;
+    top: 470px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .mainbutton {
+    width: 60px;            
+    height: 55px;
+    background-color: #306a90;
+    color: white;
+    border: none;
+    border-radius: 50%;     
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin: 1rem;
+  }
+
+  .mainbutton:hover {
+    background-color: #016ad2;
+  }
+
+  .submenu {
+    display: none;
+    flex-direction: column-reverse;
+    margin-top: 15px;
+  }
+
+  .submenu button {
+    margin-top: 12px;
+    padding: 0.4rem 0.8rem;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .submenu button:hover {
+    background-color: #125aa2;
+  }
+
+  /* ✅ כאן הקסם: הצגת תת-תפריט ב-hover */
+  .menucontainer .submenu {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    pointer-events: none;
+  }
+  
+  .menucontainer:hover .submenu {
+    pointer-events: auto;
+  }
+  
+  .menucontainer .submenu button {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: none;
+  }
+  
+  .menucontainer:hover .submenu button {
+    animation: bubbleIn 0.4s ease forwards;
+  }
+  
+  .menucontainer:hover .submenu button:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .menucontainer:hover .submenu button:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .menucontainer:hover .submenu button:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  
+  @keyframes bubbleIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .signup {
+    display: inline-block;
+    color: white;
+    border: none;
+    font-size: 15px;
+    text-decoration: none; /* ביטול קו תחתון */
+  }
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background:#242429;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    direction: rtl;
+  }
+  
+  .header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .header h2 {
+    font-size: 1.8rem;
+    color: #f8f6f6;
+    margin-bottom: 0.5rem;
+  }
+  
+  .header p {
+    color: #f8f6f6;
+    font-size: 1rem;
+  }
+
+  .textarea {
+    width: 98%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-size: 1rem;
+  }
+  
+  .form input {
+    width: 98%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-size: 1rem;
+  }
+  
+  .form button {
+    margin: 10px;
+    background-color: #ff4081;
+    color: #fff;
+    border: none;
+    padding: 0.9rem 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #e73370;
+  }
+  

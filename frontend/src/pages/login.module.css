@@ -1,0 +1,101 @@
+.middle {
+    background: linear-gradient(to top, #030304,#222226);
+    height: 130vh;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.loadingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.divContainer {
+    line-height: 1.1; 
+    margin: 0;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 500; 
+    color: #61dafb;
+}
+
+.formContainer {
+    width: 400px;
+    height: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    background: linear-gradient(to top, #21212c, #222226);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    direction: rtl;
+  }
+  
+  .loginForm input {
+    width: 80%;
+    padding: 20px;
+    margin: 40px -10px 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .loginForm button {
+    width: 90%;
+    padding: 20px;
+    font-size: 1.1rem;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .loginForm button:hover {
+    background-color: #1976d2;
+  }
+  
+  .forgotPassword {
+    display: inline-block;
+    margin: 80px  0 -50px 16rem;
+    color: #555;
+    font-size: 1rem;
+    
+    text-decoration: none;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: underline;
+  }
+
+  .signup {
+    display: inline-block;
+    background-color: #1b1b3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: -7px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none; /* ביטול קו תחתון */
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .signup:hover {
+    background-color: #19528b;
+  }
+  
+  

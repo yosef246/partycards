@@ -1,0 +1,98 @@
+.middle {
+    background: linear-gradient(to top, #030304,#222226);
+    height: 170vh;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.sectiondivider {
+    border: none;
+    height: 4px;
+    background-color: rgba(200, 200, 200, 0.2); /* אפור בהיר שקוף */
+    margin: 3rem auto;
+    width: 65%;
+    border-radius: 2px;
+  }
+  
+
+/* סקשנים כלליים */
+.section1,
+.section2,
+.section3,
+.section4 {
+  margin-bottom: 6rem; /* ריווח בין כל סקשן */
+}
+
+/* כותרות סקשנים */
+.section1 h2,
+.section2 h2,
+.section3 h2,
+.section4 h2 {
+  font-size: 1.8rem;
+  color: #61dafb;
+  margin: 2rem auto 1rem;
+  text-align: right;
+  max-width: 900px;
+}
+
+/* תוכן פסקאות */
+.section1 p,
+.section2 p,
+.section3 p,
+.section4 p {
+  font-size: 1.6rem;
+  margin: 1rem auto;
+  max-width: 900px;
+  text-align: right;
+}
+
+/* רשימות */
+.section4 ul,
+.section2 ul {
+  max-width: 900px;
+  margin: 1rem auto;
+  padding-right: 2rem;
+  list-style-type: none; /* אין נקודות */
+  font-size: 1.8rem;
+}
+
+.section4 li,
+.section2 li {
+  margin-bottom: 1rem;
+}
+
+/* קישורים */
+.section2 a {
+  color: #61dafb;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.section2 a:hover {
+  color: #4fb5d6;
+}
+
+/* כפתור הנעה לפעולה */
+.cta {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.cta a {
+  background-color: #61dafb;
+  color: #000;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.cta a:hover {
+  background-color: #4fb5d6;
+}

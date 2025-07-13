@@ -1,0 +1,23 @@
+.middle {
+    background: linear-gradient(to top, #030304, #222226);
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .loading {
+      font-size: 1.2rem;
+      color: #0c0101;
+      text-align: center;
+      margin: 20px 0;
+    }
+  
+    .cardsContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* 3 בטווח רגיל */
+      gap: 10px; /* רווח 10px בין כרטיסים ולשורות */
+      padding: 20px;
+      direction: rtl; 
+      text-align: right;
+    }

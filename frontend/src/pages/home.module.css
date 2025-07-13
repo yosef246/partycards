@@ -1,0 +1,86 @@
+.container {
+  direction: rtl;
+  height: 125vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top, #030304,#222226);
+  color: #f0f0f0;
+  padding: 2rem;
+  text-align: right;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  color: #61dafb;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: #e0e0e0;
+}
+
+.cta,
+.ctaLarge {
+  background-color: #61dafb;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.cta:hover,
+.ctaLarge:hover {
+  background-color: #4fb5d6;
+}
+
+.steps {
+  margin-bottom: 4rem;
+}
+
+.steps h2,
+.whyUs h2 {
+  color: #ffb347;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.stepList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.step {
+  background-color: rgba(255, 255, 255, 0.07);
+  padding: 1rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-size: 1.2rem;
+}
+
+.whyUs ul {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-right: 1.5rem;
+  list-style-type: disc;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.finalCta {
+  text-align: center;
+  margin-top: 4rem;
+}
